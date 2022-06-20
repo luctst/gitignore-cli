@@ -1,4 +1,5 @@
 {
+	"type": "module",
 	"name": "gitignore-cli",
 	"version": "1.0.0",
 	"description": "Generate .gitignore file with template for your project",
@@ -17,7 +18,7 @@
 	},
 	"homepage": "https://www.github.com/luctst/gitignore-cli",
 	"engines": {
-		"node": ">= 10.0.0"
+		"node": ">= 18.0.0"
 	},
 	"eslintIgnore": [
 		"lib/build/"
@@ -33,7 +34,8 @@
 		"lint:watch": "esw -w --clear --color --cache './lib/**/*.js'",
 		"lint:fix": "npx eslint --fix './lib/**/*.js'",
 		"style": "prettier -c './lib/**/*.js'",
-		"style:fix": "prettier --c --write './lib/**/*.js'"
+		"style:fix": "prettier --c --write './lib/**/*.js'",
+		"start": "node lib/cli.js"
 	},
 	"devDependencies": {
 		"ava": "^4.3.0",
@@ -44,5 +46,8 @@
 		"eslint-plugin-prettier": "^4.0.0",
 		"eslint-watch": "^8.0.0",
 		"prettier": "^2.7.1"
+	},
+	"dependencies": {
+		"chalk": "^5.0.1"
 	}
 }
