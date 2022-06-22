@@ -2,18 +2,18 @@
   <br>
   <br>
   <p>
-    <b>gitignore-cli</b>
+    <b>gitignorecli</b>
   </p>
   <p>
      <i>Generate .gitignore file with template for your project</i>
   </p>
   <p>
 
-[![Build Status](https://travis-ci.com/luctst/gitignore-cli.svg?branch=master)](https://travis-ci.com/luctst/gitignore-cli)
-[![NPM version](https://img.shields.io/npm/v/gitignore-cli?style=flat-square)](https://img.shields.io/npm/v/gitignore-cli?style=flat-square)
-[![Package size](https://img.shields.io/bundlephobia/min/gitignore-cli)](https://img.shields.io/bundlephobia/min/gitignore-cli)
-[![Dependencies](https://img.shields.io/david/luctst/gitignore-cli.svg?style=popout-square)](https://david-dm.org/luctst/gitignore-cli)
-[![devDependencies Status](https://david-dm.org/luctst/gitignore-cli/dev-status.svg?style=flat-square)](https://david-dm.org/luctst/gitignore-cli?type=dev)
+[![Build Status](https://travis-ci.com/luctst/gitignorecli.svg?branch=master)](https://travis-ci.com/luctst/gitignorecli)
+[![NPM version](https://img.shields.io/npm/v/gitignorecli?style=flat-square)](https://img.shields.io/npm/v/gitignorecli?style=flat-square)
+[![Package size](https://img.shields.io/bundlephobia/min/gitignorecli)](https://img.shields.io/bundlephobia/min/gitignorecli)
+[![Dependencies](https://img.shields.io/david/luctst/gitignorecli.svg?style=popout-square)](https://david-dm.org/luctst/gitignorecli)
+[![devDependencies Status](https://david-dm.org/luctst/gitignorecli/dev-status.svg?style=flat-square)](https://david-dm.org/luctst/gitignorecli?type=dev)
 [![code style: prettier](https://img.shields.io/badge/code_style-prettier-ff69b4.svg?style=flat-square)](https://github.com/prettier/prettier)
 
   </p>
@@ -36,18 +36,18 @@
 
 ## Install 🐙
 ```
-npm i -g gitignore-cli
+npm i -g gitignorecli
 ```
 
 ## Usage 💡
 ```
-gitignore-cli <commands> [options]
+gitignorecli <commands> [options]
 ```
 
 OR
 
 ```
-npx gitignore-cli <commands> [options]
+npx gitignorecli <commands> [options]
 ```
 *Use this if you don't want install this package globally.*
 
@@ -56,7 +56,7 @@ npx gitignore-cli <commands> [options]
 
 You can find the template availables in this [github repository](https://github.com/github/gitignore) where template name is filename without the extension.
 
-> **Example** - Supposing you'like to create a `.gitignore` file and your project works with NodeJs you should run this `gitignore-cli Node`
+> **Example** - Supposing you'like to create a `.gitignore` file and your project works with NodeJs you should run this `gitignorecli Node`
 
 ### Options
 * `--path` **optional**, The path to create the `.gitignore` file.
@@ -64,17 +64,17 @@ You can find the template availables in this [github repository](https://github.
 ## Exemples 🖍
 *With template name*
 ```
-gitignore-cli Node
+gitignorecli Node
 ```
 
 *With custom path*
 ```
-gitignore-cli --path dev/foo/
+gitignorecli --path dev/foo/
 ```
 
 *With template and custom path*
 ```
-gitignore-cli C --path dev/foo/
+gitignorecli C --path dev/foo/
 ```
 
 ## Contributing 🍰

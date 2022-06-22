@@ -1,6 +1,6 @@
 {
 	"type": "module",
-	"name": "gitignore-cli",
+	"name": "gitignorecli",
 	"version": "1.0.0",
 	"description": "Generate .gitignore file with template for your project",
 	"main": "lib/index.js",
