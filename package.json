@@ -1,6 +1,6 @@
 {
 	"type": "module",
-	"name": "cli-gitignore",
+	"name": "cligit",
 	"version": "1.0.0",
 	"description": "Generate .gitignore file with template for your project",
 	"main": "lib/index.js",
