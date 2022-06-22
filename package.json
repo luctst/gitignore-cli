@@ -26,7 +26,20 @@
 	"ava": {
 		"cache": true
 	},
-	"keywords": [],
+	"keywords": [
+		"cli",
+		"npm",
+		"cli-tool",
+		"gitignore",
+		"input",
+		"cmd",
+		"console",
+		"helper",
+		"argv",
+		"bin",
+		"util",
+		"flags"
+	],
 	"scripts": {
 		"test": "ava --verbose ./test/*.js",
 		"test:watch": "ava --watch --verbose --fail-fast ./test/*.js",
