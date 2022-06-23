@@ -1,10 +1,10 @@
 {
 	"type": "module",
 	"name": "cligit",
-	"version": "1.0.2",
+	"version": "1.0.3",
 	"description": "Generate .gitignore file with template for your project",
-	"exports": "./lib/index.js",
-	"bin": "./lib/index.js",
+	"exports": "./lib/cli.js",
+	"bin": "./lib/cli.js",
 	"author": "luctst",
 	"license": "MIT",
 	"files": [
